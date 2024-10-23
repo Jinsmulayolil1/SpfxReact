@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-list-view-sln-client-side-solution",
+    "id": "b1d50df7-2baa-445d-bb22-acf16a51c7c9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPListViewSln description"
+      },
+      "longDescription": {
+        "default": "SPListViewSln description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-list-view-sln Feature",
+        "description": "The feature that activates elements of the sp-list-view-sln solution.",
+        "id": "2032fa36-aa60-47a9-883d-01b4062fc93e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-list-view-sln.sppkg"
+  }
+}
